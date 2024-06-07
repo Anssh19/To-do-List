@@ -25,6 +25,10 @@ function ToDoList() {
     setTasks(updatedTasks);
   }
 
+  function updateTask(){
+        
+  }
+
   return (
     <div className="todo">
       <h1>MY TODO'S</h1>
@@ -46,6 +50,7 @@ function ToDoList() {
             <button className="deletebtn" onClick={() => deleteTask(index)}>
               Delete
             </button>
+            <button className="updatebtn" onClick={()=> updateTask} >Update</button>
           </li>
         ))}
       </ol>

@@ -29,7 +29,7 @@ h1{
 }
 
 .deletebtn{
-  font-size: 1.7rem;
+  font-size: 1.3rem;
     font-weight: bold;
     padding: 10px 20px;
     background-color: rgb(252, 10, 10);
@@ -75,3 +75,16 @@ li{
   align-items: center;
   flex: 1;
 }
+
+.updatebtn{
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 10px 10px ;
+  background-color: rgb(5, 68, 110);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+  
+}
+
